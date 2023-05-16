@@ -1,0 +1,69 @@
+﻿@model Application.ViewModel.PokemonView.SavePokemonViewModel
+@{
+    bool editMode = Model.Id == 0 ? false : true;
+    ViewData["Title"] = editMode ? "Edit Pokemon" : "Add Pokemon";
+}
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-6 offset-3">
+            <div class="card">
+                <div class="card-header bg-dark text-light">
+                    <h4>@(editMode ? $"Editando el Pokemon: {Model.Nombre}" : "Creando un nuevo Pokemon")</h4>
+                </div>
+                <div class="card-body">
+                    <form method="post" asp-controller="Pokemon" asp-action="@(editMode ? "Edit":"Create")">
+                        <div class="mb-3">
+                            <label asp-for="Nombre" class="form-label">Nombre: </label>
+                            <input type="text" asp-for="Nombre" class="form-control" />
+                            <span asp-validation-for="Nombre" class="text-danger"></span>
+                        </div>
+                        <div class="mb-3">
+                            <label asp-for="ImgUrl" class="form-label">Imagen: </label>
+                            <input type="text" asp-for="ImgUrl" class="form-control">
+                        </div>
+                        <div class="mb-3">
+                            <label asp-for="RegionId" class="form-label">Regiones: </label>
+                            <select asp-for="RegionId" class="form-control">
+                                <option value="">-- Select a region --</option>
+
+                                <option value="1">Kanto</option>
+                                <option value="2">Johto</option>
+                                <option value="3">Hoenn</option>
+                                <option value="4">Sinnoh</option>
+                                <option value="5">Teselia</option>
+                                <option value="6">Kalos</option>
+                                <option value="7">Alola</option>
+                                <option value="8">Galar</option>
+
+                            </select>
+                            <span asp-validation-for="RegionId" class="text-danger"></span>
+
+                        </div>
+                        <div class="mb-3">
+                            <label asp-for="TipoId" class="form-label">Tipos: </label>
+                            <select asp-for="TipoId"  class="form-control">
+                                <option value="">-- Select a tipo --</option>
+                                <option value="1">Acero</option>
+                                <option value="2">Agua</option>
+                                <option value="3">Tierra</option>
+                                <option value="4">Volador</option>
+                                <option value="5">Hada</option>
+                                <option value="6">Veneno</option>
+                                <option value="7">Electrico</option>
+                                <option value="8">Roca</option>
+                  
+                            </select>
+                            <span asp-validation-for="TipoId" class="text-danger"></span>
+
+                        </div>
+                  
+                        <input type="hidden" asp-for="Id" />
+                        <button type="submit" class="btn btn-primary">Guardar</button>
+                        <a asp-controller="Pokemon" asp-action="Index" class="btn btn-warning">Volver Atras</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

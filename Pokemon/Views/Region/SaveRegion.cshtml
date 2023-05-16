@@ -1,0 +1,29 @@
+﻿@model Application.ViewModel.RegionView.SaveRegionViewModel
+@{
+    bool editMode = Model.Id == 0 ? false : true;
+    ViewData["Title"] = editMode ? "Edit Region" : "Add Region";
+}
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-6 offset-3">
+            <div class="card">
+                <div class="card-header bg-dark text-light">
+                    <h4>@(editMode ? $"Editando el Region: {Model.Nombre}" : "Creando un nuevo Region")</h4>
+                </div>
+                <div class="card-body">
+                    <form method="post" asp-controller="Region" asp-action="@(editMode ? "Edit":"Create")">
+                        <div class="mb-3">
+                            <label asp-for="Nombre" class="form-label">Nombre: </label>
+                            <input type="text" asp-for="Nombre" class="form-control" />
+                            <span asp-validation-for="Nombre" class="text-danger"></span>
+                        </div>
+                        <input type="hidden" asp-for="Id" />
+                        <button type="submit" class="btn btn-primary">Guardar</button>
+                        <a asp-controller="Region" asp-action="Index" class="btn btn-warning">Volver Atras</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

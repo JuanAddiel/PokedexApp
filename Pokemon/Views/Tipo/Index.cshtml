@@ -1,0 +1,61 @@
+﻿@model List<Application.ViewModel.TipoView.TipoViewModel>
+@{
+    ViewData["Title"] = "Mantenimiento Tipo";
+}
+
+<section class="py-5 text-center container">
+    <div class="row py-lg-5">
+        <div class="col-lg-6 col-md-8 mx-auto">
+            <h1 class="fw-light">Crear Tipo</h1>
+            <p class="lead text-muted">Una aplicacion hecha para crear tipos.</p>
+            <p>
+                <a asp-controller="Tipo" asp-action="Create" class="btn btn-primary">Create new tipos</a>
+            </p>
+        </div>
+    </div>
+</section>
+
+<div class="row">
+    @if (Model.Count == 0 || Model == null)
+    {
+        <h2>No hay Tipos</h2>
+    }
+    else
+    {
+       
+        
+<section class="py-5 text-center container">
+            <table class="table table-primary align-content-center table-striped">
+                <thead>
+                    <tr>
+                        
+                        <th scope="col">Id</th>
+                        <th scope="col">Nombre</th>
+                        <th scope="col">Accion</th>
+                    </tr>
+                </thead>
+                        
+                            
+                    @foreach (Application.ViewModel.TipoView.TipoViewModel item in Model)
+                    {
+                            <tbody>
+                                <tr>
+                                    <th scope="row">@item.Id</th>
+                                    <td>@item.Nombre</td>
+                                    <td><a asp-controller="Tipo" asp-action="Edit" asp-route-id="@item.Id" asp class="btn btn-sm btn-warning">Update</a>
+                                <a asp-controller="Tipo" asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-danger">Delete</a>
+                            </td>
+                                   </tr>
+                              
+                            </tbody>
+
+                   
+                    }
+                               
+                        </table>   
+                        </section>
+    }
+
+
+
+</div>

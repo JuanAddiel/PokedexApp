@@ -1,0 +1,15 @@
+C:\Users\addie\Desktop\Proyectos\Pokemon\Application\bin\Debug\net6.0\Application.deps.json
+C:\Users\addie\Desktop\Proyectos\Pokemon\Application\bin\Debug\net6.0\Application.dll
+C:\Users\addie\Desktop\Proyectos\Pokemon\Application\bin\Debug\net6.0\Application.pdb
+C:\Users\addie\Desktop\Proyectos\Pokemon\Application\bin\Debug\net6.0\Database.dll
+C:\Users\addie\Desktop\Proyectos\Pokemon\Application\bin\Debug\net6.0\Database.pdb
+C:\Users\addie\Desktop\Proyectos\Pokemon\Application\obj\Debug\net6.0\Application.csproj.AssemblyReference.cache
+C:\Users\addie\Desktop\Proyectos\Pokemon\Application\obj\Debug\net6.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\addie\Desktop\Proyectos\Pokemon\Application\obj\Debug\net6.0\Application.AssemblyInfoInputs.cache
+C:\Users\addie\Desktop\Proyectos\Pokemon\Application\obj\Debug\net6.0\Application.AssemblyInfo.cs
+C:\Users\addie\Desktop\Proyectos\Pokemon\Application\obj\Debug\net6.0\Application.csproj.CoreCompileInputs.cache
+C:\Users\addie\Desktop\Proyectos\Pokemon\Application\obj\Debug\net6.0\Application.csproj.CopyComplete
+C:\Users\addie\Desktop\Proyectos\Pokemon\Application\obj\Debug\net6.0\Application.dll
+C:\Users\addie\Desktop\Proyectos\Pokemon\Application\obj\Debug\net6.0\refint\Application.dll
+C:\Users\addie\Desktop\Proyectos\Pokemon\Application\obj\Debug\net6.0\Application.pdb
+C:\Users\addie\Desktop\Proyectos\Pokemon\Application\obj\Debug\net6.0\ref\Application.dll

@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pokemon", "Pokemon\Pokemon.csproj", "{02C1D44A-2DDC-4B82-A2B1-EA6BD66FECBA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Database", "Database\Database.csproj", "{ED8C6C78-449D-450D-BB97-B67152E46AAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{4E555ACF-E694-44E5-A130-52A64CDA7CFC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{02C1D44A-2DDC-4B82-A2B1-EA6BD66FECBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02C1D44A-2DDC-4B82-A2B1-EA6BD66FECBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02C1D44A-2DDC-4B82-A2B1-EA6BD66FECBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02C1D44A-2DDC-4B82-A2B1-EA6BD66FECBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED8C6C78-449D-450D-BB97-B67152E46AAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED8C6C78-449D-450D-BB97-B67152E46AAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED8C6C78-449D-450D-BB97-B67152E46AAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED8C6C78-449D-450D-BB97-B67152E46AAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E555ACF-E694-44E5-A130-52A64CDA7CFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E555ACF-E694-44E5-A130-52A64CDA7CFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E555ACF-E694-44E5-A130-52A64CDA7CFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E555ACF-E694-44E5-A130-52A64CDA7CFC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {77EA7709-4317-4AB9-83AB-0BA75B230A78}
+	EndGlobalSection
+EndGlobal
