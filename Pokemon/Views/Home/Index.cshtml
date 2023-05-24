@@ -7,18 +7,77 @@
     <div class="row">
         @if (Model.Count == 0 || Model == null)
         {
-            <h2>No hay Pokemon</h2>
+            <section class="py-5 text-center container">
+                <div class="row py-lg-5">
+                    <div class="col-lg-6 col-md-8 mx-auto">
+                        <h1 class="fw-light">Pokemon App</h1>
+                        <p class="lead text-muted">Puedes hacer búsquedas de Pokémon.</p>
+                        <form method="get" class="d-inline-flex" action="@Url.Action("Index", "Home")">
+                            <div class="mb-3">
+                                <input type="text" class="form-control me-2" name="nombre" placeholder="Buscar por nombre...">
+                            </div>
+                            <div class="mb-3">
+                                <div class="input-group">
+                                    <select name="regionId" class="form-control">
+                                        <option value="">-- Select a region --</option>
+                                        <option value="1">Kanto</option>
+                                        <option value="2">Johto</option>
+                                        <option value="3">Hoenn</option>
+                                        <option value="4">Sinnoh</option>
+                                        <option value="5">Teselia</option>
+                                        <option value="6">Kalos</option>
+                                        <option value="7">Alola</option>
+                                        <option value="8">Galar</option>
+                                    </select>
+                                    <div class="input-group-append">
+                                        <button class="btn btn-outline-secondary" type="submit">Buscar</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+                        </form>
+                    </div>
+                </div>
+            </section>
+
+            <h2>No hay Pokemones</h2>
         }
         else
         {
-            <form method="get" action="@Url.Action("Index", "Home")">
-                <div class="input-group mb-3">
-                    <input type="text" class="form-control" name="nombre" placeholder="Buscar por nombre...">
-                    <div class="input-group-append">
-                        <button class="btn btn-outline-secondary" type="submit">Buscar</button>
+            <section class="py-5 text-center container">
+                <div class="row py-lg-5">
+                    <div class="col-lg-6 col-md-8 mx-auto">
+                        <h1 class="fw-light">Pokemon App</h1>
+                        <p class="lead text-muted">Puedes hacer búsquedas de Pokémon.</p>
+                        <form method="get" class="d-inline-flex" action="@Url.Action("Index", "Home")">
+                            <div class="mb-3">
+                                <input type="text" class="form-control me-2" name="nombre" placeholder="Buscar por nombre...">
+                            </div>
+                            <div class="mb-3">
+                                <div class="input-group">
+                                    <select name="regionId" class="form-control">
+                                        <option value="">-- Select a region --</option>
+                                        <option value="1">Kanto</option>
+                                        <option value="2">Johto</option>
+                                        <option value="3">Hoenn</option>
+                                        <option value="4">Sinnoh</option>
+                                        <option value="5">Teselia</option>
+                                        <option value="6">Kalos</option>
+                                        <option value="7">Alola</option>
+                                        <option value="8">Galar</option>
+                                    </select>
+                                    <div class="input-group-append">
+                                        <button class="btn btn-outline-secondary" type="submit">Buscar</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr>
+                        </form>
                     </div>
                 </div>
-            </form>
+            </section>
+
+
             @foreach (Application.ViewModel.PokemonView.PokemonViewModel item in Model)
             {
                 <div class="col-4">

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bFoixsL7QaWzPVy95AuxS9FuSscxoRsOdv6tIjYflV+B6UFadTsHcoifpwX3Uf/lY8Qet7LQ+mvwoBqpFQBjpw==",
+  "dgSpecHash": "sHSfMkUhZmjeJp1jfzhb20fGjWVRaPCBcCmDUnzrABSHkkkDXnYkdSiY50lsV4hCapqiOpIvMRXL/K3LiW5PgA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\addie\\Desktop\\Proyectos\\Pokemon\\Pokemon\\Pokemon.csproj",
+  "projectFilePath": "C:\\Users\\addie\\Desktop\\Proyectos\\Pokemon\\Pokemon\\Pokemon\\Pokemon.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\addie\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\addie\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

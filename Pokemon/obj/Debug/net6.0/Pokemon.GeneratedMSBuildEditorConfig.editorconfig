@@ -9,73 +9,73 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Pokemon
 build_property.RootNamespace = Pokemon
-build_property.ProjectDir = C:\Users\addie\Desktop\Proyectos\Pokemon\Pokemon\
+build_property.ProjectDir = C:\Users\addie\Desktop\Proyectos\Pokemon\Pokemon\Pokemon\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\addie\Desktop\Proyectos\Pokemon\Pokemon
+build_property.MSBuildProjectDirectory = C:\Users\addie\Desktop\Proyectos\Pokemon\Pokemon\Pokemon
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/addie/Desktop/Proyectos/Pokemon/Pokemon/Views/Home/Index.cshtml]
+[C:/Users/addie/Desktop/Proyectos/Pokemon/Pokemon/Pokemon/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/addie/Desktop/Proyectos/Pokemon/Pokemon/Views/Home/Privacy.cshtml]
+[C:/Users/addie/Desktop/Proyectos/Pokemon/Pokemon/Pokemon/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/addie/Desktop/Proyectos/Pokemon/Pokemon/Views/Pokemon/Delete.cshtml]
+[C:/Users/addie/Desktop/Proyectos/Pokemon/Pokemon/Pokemon/Views/Pokemon/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9rZW1vblxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/addie/Desktop/Proyectos/Pokemon/Pokemon/Views/Pokemon/Index.cshtml]
+[C:/Users/addie/Desktop/Proyectos/Pokemon/Pokemon/Pokemon/Views/Pokemon/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9rZW1vblxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/addie/Desktop/Proyectos/Pokemon/Pokemon/Views/Pokemon/SavePokemon.cshtml]
+[C:/Users/addie/Desktop/Proyectos/Pokemon/Pokemon/Pokemon/Views/Pokemon/SavePokemon.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9rZW1vblxTYXZlUG9rZW1vbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/addie/Desktop/Proyectos/Pokemon/Pokemon/Views/Region/Delete.cshtml]
+[C:/Users/addie/Desktop/Proyectos/Pokemon/Pokemon/Pokemon/Views/Region/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaW9uXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/addie/Desktop/Proyectos/Pokemon/Pokemon/Views/Region/Index.cshtml]
+[C:/Users/addie/Desktop/Proyectos/Pokemon/Pokemon/Pokemon/Views/Region/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaW9uXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/addie/Desktop/Proyectos/Pokemon/Pokemon/Views/Region/SaveRegion.cshtml]
+[C:/Users/addie/Desktop/Proyectos/Pokemon/Pokemon/Pokemon/Views/Region/SaveRegion.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaW9uXFNhdmVSZWdpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/addie/Desktop/Proyectos/Pokemon/Pokemon/Views/Shared/Error.cshtml]
+[C:/Users/addie/Desktop/Proyectos/Pokemon/Pokemon/Pokemon/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/addie/Desktop/Proyectos/Pokemon/Pokemon/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/addie/Desktop/Proyectos/Pokemon/Pokemon/Pokemon/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/addie/Desktop/Proyectos/Pokemon/Pokemon/Views/Tipo/Delete.cshtml]
+[C:/Users/addie/Desktop/Proyectos/Pokemon/Pokemon/Pokemon/Views/Tipo/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/addie/Desktop/Proyectos/Pokemon/Pokemon/Views/Tipo/Index.cshtml]
+[C:/Users/addie/Desktop/Proyectos/Pokemon/Pokemon/Pokemon/Views/Tipo/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/addie/Desktop/Proyectos/Pokemon/Pokemon/Views/Tipo/SaveTipo.cshtml]
+[C:/Users/addie/Desktop/Proyectos/Pokemon/Pokemon/Pokemon/Views/Tipo/SaveTipo.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb1xTYXZlVGlwby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/addie/Desktop/Proyectos/Pokemon/Pokemon/Views/_ViewImports.cshtml]
+[C:/Users/addie/Desktop/Proyectos/Pokemon/Pokemon/Pokemon/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/addie/Desktop/Proyectos/Pokemon/Pokemon/Views/_ViewStart.cshtml]
+[C:/Users/addie/Desktop/Proyectos/Pokemon/Pokemon/Pokemon/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/addie/Desktop/Proyectos/Pokemon/Pokemon/Views/Shared/_Layout.cshtml]
+[C:/Users/addie/Desktop/Proyectos/Pokemon/Pokemon/Pokemon/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-tzjzue06ge

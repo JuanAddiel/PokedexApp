@@ -52,7 +52,7 @@ namespace Application.Services
 
             return vm;
         }
-        public async Task<List<PokemonViewModel>> GetAllViewModel(string nombre = null)
+        public async Task<List<PokemonViewModel>> GetAllViewModel(string nombre = null, int regionId =0)
         {
             var pokemonList = await _pokemonRepository.GetAllAsync();
             var filteredList = pokemonList;
@@ -62,6 +62,11 @@ namespace Application.Services
                 var nombreCapitalized = char.ToUpper(nombre[0]) + nombre.Substring(1);
                 filteredList = filteredList.Where(p => p.Nombre.Contains(nombreCapitalized)).ToList();
             }
+            if(regionId != 0)
+            {
+                filteredList = filteredList.Where(p=>p.RegionId == regionId).ToList();
+            }
+
             return filteredList.Select(p => new PokemonViewModel
             {
                 Nombre = p.Nombre,

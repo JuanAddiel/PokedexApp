@@ -1936,11 +1936,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\addie\\Desktop\\Proyectos\\Pokemon\\Application\\Application.csproj",
+      "projectUniqueName": "C:\\Users\\addie\\Desktop\\Proyectos\\Pokemon\\Pokemon\\Application\\Application.csproj",
       "projectName": "Application",
-      "projectPath": "C:\\Users\\addie\\Desktop\\Proyectos\\Pokemon\\Application\\Application.csproj",
+      "projectPath": "C:\\Users\\addie\\Desktop\\Proyectos\\Pokemon\\Pokemon\\Application\\Application.csproj",
       "packagesPath": "C:\\Users\\addie\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\addie\\Desktop\\Proyectos\\Pokemon\\Application\\obj\\",
+      "outputPath": "C:\\Users\\addie\\Desktop\\Proyectos\\Pokemon\\Pokemon\\Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1962,8 +1962,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\addie\\Desktop\\Proyectos\\Pokemon\\Database\\Database.csproj": {
-              "projectPath": "C:\\Users\\addie\\Desktop\\Proyectos\\Pokemon\\Database\\Database.csproj"
+            "C:\\Users\\addie\\Desktop\\Proyectos\\Pokemon\\Pokemon\\Database\\Database.csproj": {
+              "projectPath": "C:\\Users\\addie\\Desktop\\Proyectos\\Pokemon\\Pokemon\\Database\\Database.csproj"
             }
           }
         }
@@ -1993,7 +1993,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }

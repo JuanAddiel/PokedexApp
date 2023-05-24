@@ -15,9 +15,9 @@ namespace Pokemon.Controllers
             _pokemonServices = new(context);
         }
 
-        public async Task<IActionResult> Index(string nombre)
+        public async Task<IActionResult> Index(string nombre, int regionId)
         {
-            return View(await _pokemonServices.GetAllViewModel(nombre));
+            return View(await _pokemonServices.GetAllViewModel(nombre, regionId));
         }
 
         public IActionResult Privacy()

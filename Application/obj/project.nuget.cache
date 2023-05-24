@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3Zq2QLZu5jmeqM0tWjPMe+81UHlXOiNc8ikq3R4NsFa+YFNJZA4SxfR/QsNAxDnl67wvhoDZUWu6GQl42ZVemA==",
+  "dgSpecHash": "NZdch9twv+DSMy1rkQ8E/OTI4iKQ7XR/xWrY+DaTT6AviUVxDI8flanipaQn9ooasrQRQkV6EImSspS1UVKMyA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\addie\\Desktop\\Proyectos\\Pokemon\\Application\\Application.csproj",
+  "projectFilePath": "C:\\Users\\addie\\Desktop\\Proyectos\\Pokemon\\Pokemon\\Application\\Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\addie\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\addie\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
